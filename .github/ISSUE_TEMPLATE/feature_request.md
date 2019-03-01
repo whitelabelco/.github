@@ -27,19 +27,19 @@ BE Ex. Modify the `/users` endpoint to take the following fields ...
 <!--- Ref: https://martinfowler.com/bliki/GivenWhenThen.html --->
 
 ### Scenario: User changes email - success
-**Given:** I have an account
-**And** I want to change my email address
+- **Given:** I have an account
+  - **And** I want to change my email address
 
-**When:** I submit a new email address
+- **When:** I submit a new email address
 
-**Then:** My account should reflect the email address change
-**And** I should be notified that the change was successful
+- **Then:** My account should reflect the email address change
+  - **And** I should be notified that the change was successful
 
 ### Scenario: User changes email - failure
-**Given:** I have an account
-**And** I want to change my email address
+- **Given:** I have an account
+  - **And** I want to change my email address
 
-**When:** My email change request fails
+- **When:** My email change request fails
 
-**Then:** My account should reflect the previous email address
-**And** I should be notified that the change failed
+- **Then:** My account should reflect the previous email address
+  - **And** I should be notified that the change failed
