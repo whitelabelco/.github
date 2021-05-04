@@ -21,5 +21,6 @@ This PR:
 - [ ] There are no errors/failing tests from my changes on this branch.
 - [ ] I have requested a review on this PR.
 - [ ] I have re-assigned the Github ticket and moved the ticket on the project board.
+- [ ] If I have added an ENV var or other secrets, I have updated Dashlane and the ReadMe (and any other applicable docs)
 
 ## Additional Details and Screenshots :art: <!-- If applicable -->
